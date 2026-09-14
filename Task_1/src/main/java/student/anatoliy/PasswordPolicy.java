@@ -27,7 +27,7 @@ public class PasswordPolicy {
         if (password.length() < 8 || password.trim().isEmpty()) {
             throw new IllegalPasswordException("Password should contain at least 8 symbols | input password: ["+password+"]");
         }
-        if (password.length() != password.trim().length()) {
+        if (password.contains(" ")) {
             throw new IllegalPasswordException("Password can`t contain spaces | input password: ["+password+"]");
         }
         return true;
