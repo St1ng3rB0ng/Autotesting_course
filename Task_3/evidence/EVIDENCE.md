@@ -1,4 +1,5 @@
-![img.png](img/scrnsht_console_log.png)
+![img.png](img/scrnsht_console_log.png)  
+
 TC-01 (Positive): Успішна ініціалізація об'єкта BankAccount.
 
 TC-02 (Positive): Поповнення балансу на додатне значення (1000).
